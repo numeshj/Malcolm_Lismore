@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body style="background-color: #333;"></body> <!-- Replace #333 with preferred dark color -->
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Malcolm & Lismore Photography</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="uploads/new/ccc1.svg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="uploads/new/ccc1.svg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	
+	<!-- fontawesome CSS -->
+	<title>icons</title>
+    <link rel="stylesheet" type ="text/css"  href="fontawesome/css/all.css">
+	<!-- fontawesome -->
+	
+	
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body id="page-top" class="politics_version">
+
+
+
+<!-- Spinner Start -->
+ 
+  </div>
+
+    <div id="spinner" class="show bg-dark 
+	position-fixed 
+	translate-middle 
+	w-100 vh-100 
+	top-50 start-50 
+	d-flex 
+	align-items-center 
+	justify-content-center">
+
+	<div class="spinner-grow text-primary" role="status"></div>
+			
+    </div>
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading Screen Example</title>
+    <!-- Your CSS file or styles go here -->
+    <style>
+        /* Loading screen styles */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff; /* Background color for the loading screen */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Ensure it's on top of everything */
+        }
+        .loading-image {
+            max-width: 200px; /* Adjust the max-width of the image */
+            /* Add other styles for the image as needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading screen content with the image -->
+    <div class="loading-screen bg-dark" id="loadingScreen">
+	
+        <img class="loading-image"  src="uploads/new/mclogow.png" alt="Loading Image">
+    </div>
+
+    <script>
+        // Function to remove the loading screen after 1 second (1000 milliseconds)
+        window.onload = function() {
+            setTimeout(function() {
+                var loadingScreen = document.getElementById('loadingScreen');
+                var mainContent = document.getElementById('mainContent');
+                if (loadingScreen) {
+                    loadingScreen.style.display = 'none'; // Hide the loading screen
+                    mainContent.style.display = 'block'; // Show the main content
+                }
+            }, 1000); // Change 1000 to the desired delay in milliseconds
+        };
+    </script>
+</body>
+	
+    <!-- Spinner End -->
+
+    <!-- LOADER -->
+    <div id="preloader">
+		<div id="main-ld">
+			<div class="loader">
+				<!--<span class="loader-inner"><img class="loading-image"  src="uploads/new/mclogow.png" alt="Loading Image">--></span>
+			</div>
+		</div>
+    </div><!-- end loader -->
+    
+	<!-- END LOADER -->
+	
+	
+	
+	<!--  <div class="fat-nav">
+        <div class="fat-nav__wrapper">
+            <ul>
+                <li><a class="js-scroll-trigger" href="#home">Home</a></li>
+                <li><a class="js-scroll-trigger" href="#about">About Me</a></li>
+                <li><a class="js-scroll-trigger" href="#gallery">Gallery</a></li>
+                <li><a class="js-scroll-trigger" href="#services">Service</a></li>
+				<li><a class="js-scroll-trigger" href="#reviews">Reviews</a></li>
+				<li><a class="js-scroll-trigger" href="#pricing">Pricing</a></li>
+				<li><a class="js-scroll-trigger" href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </div> -->
+	
+ 
+  <!-- Rest of your HTML content -->
+	
+    <!-- Navbar Start -->
+	
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Buttons</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #040b0e;
+            z-index: 1000; /* Ensure it's above other elements */
+        }
+
+        .btn-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 60px; /* Adjust this value to position it below the navbar */
+            padding: 20px 0;
+            background-color: #040b0e;
+        }
+
+        .glow-on-hover {
+            width: 80px;
+            height: 30px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #040b0e;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            margin: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8,
+                #ff0000);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            border-radius: 5px;
+        }
+
+        .glow-on-hover:hover:before {
+            opacity: 1;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+                <img class="img-fluid" src="uploads/new/mclogow.png" style="height: 58px;" alt=""/>
+				
+		<a class="active"href="index.html"><button class="glow-on-hover">Home &nbsp;<i class="fa-solid fa-house-chimney"></i></button></a>
+        <a class="active"href="aboutus.html"><button class="glow-on-hover">About US</button></a>
+        <a class="active"href="gallery.html"><button class="glow-on-hover">Gallery</button></a>
+        <a class="active"href="service.html"><button class="glow-on-hover">Service</button></a>
+        <a class="active"href="reviews.html"><button class="glow-on-hover">Reviews</button></a>
+        <a class="active"href="contact.html"><button class="glow-on-hover">Contact&nbsp; <i class="fa-solid fa-headset"></i></button></a>
+		<a class="active"href="login/login_form.php"><button class="glow-on-hover">Login</button></a>
+				
+            </a>
+			   <div style="display: flex; justify-content: center; align-items: flex-start; padding-top: 10px;">
+      <div class="btn-wrapper" style="text-align: center;">
+
+        </div>
+    </nav>
+
+
+    </div>
+</body>
+
+    </nav>
+	
+<!-- Navbar End -->
+
+<body>
+
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+<!-- Thumbnails Section -->
+    <div class="container">
+        <div class="row">
+            <?php
+            // Establish database connection (Update database credentials)
+            @include 'login/config.php';
+
+            if ($connection) {
+                $query = mysqli_query($connection, "SELECT ImageURL FROM tblartproduct");
+
+                while ($row = mysqli_fetch_assoc($query)) {
+                    $imageURL = $row['ImageURL']; // URL of the image
+
+                    // Display the images within HTML structure
+                    echo '<div class="col-md-3">';
+                    echo '<img src="' . $imageURL . '" alt="Image">';
+                    echo '</div>';
+                }
+            } else {
+                echo "Failed to connect to the database.";
+            }
+            ?>
+        </div>
+    </div>
+    <!-- End Thumbnails Section -->
+
+</body>	
+	
+
+
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="aboutus.html">About</a>
+						<a href="login/login_form.php">Gallery</a>
+                        <a href="pricing.html">Pricing</a>
+                        <a href="service.html">Service</a>
+                        <a href="contact.html">Contact</a>
+                    </p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2023 <a href="#">Malcoln Lismore</a> Design By : 
+					<a href="#">Numeshj</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-camera" aria-hidden="true"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<script src="js/jquery.appear.min.js"></script>
+	<script src="js/skill.bars.jquery.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.fatNav.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
